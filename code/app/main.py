@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 
-app = FastAPI()
+app = FastAPI(title="Persons FastApi")
 
 
 app.add_middleware(
